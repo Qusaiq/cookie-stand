@@ -1,0 +1,23 @@
+body,html{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    background: linear-gradient(45deg,rgba(255, 192, 203, 0.685),black)no-repeat;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    font : italic normal 20px Arial;
+    color: black;
+}
+td,th{
+    padding: 10px;
+    width: 50px;
+}
+th{
+    font-weight: bold;
+}
+/* table{
+    border: 1px solid black;
+} */
