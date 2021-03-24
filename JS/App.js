@@ -23,7 +23,7 @@ SalamonCookies.prototype.numberOfCustmer = function () {
 
 SalamonCookies.prototype.hourlyDailySale = function () {
   for (let i = 0; i < hours.length; i++) {
-    
+
     let numberOfCookies = Math.ceil(this.numberOfCustmer() * this.AvgCookie);
     this.hourlySales.push(numberOfCookies);
     this.dailySales += numberOfCookies;
@@ -44,7 +44,7 @@ let tableRows =function(){
     tableHeading.textContent = hours[i];
     tableRows.appendChild(tableHeading);
   }
-  
+
   tableHeading = document.createElement('th');
   tableHeading.textContent = 'Daily Location Total';
   tableRows.appendChild(tableHeading);
@@ -69,12 +69,12 @@ SalamonCookies.prototype.render = function () {
     tableRows.appendChild(tableData);
     hourlySales[i] += this.hourlySales[i];
   }
-  
+
   tableData = document.createElement('td');
   tableData.textContent = sum;
   sum=0;
   tableRows.appendChild(tableData);
-  
+
 
 };
 function calculateTotal() {
@@ -102,8 +102,15 @@ let renderFooter = function () {
   tableRows.appendChild(tableData);
   container.appendChild(tableRows);
 };
-
-tableRows();
+// SalamonCookies.prototype.opennigHoures=function()
+// {
+//   for(let i=0;i<hours.lengthi++)
+//   {
+//     document.getElementById('open').textContent='ssdsa';
+//   }
+// }
+// document.getElementById("open").innerHTML = "Paragraph changed!";
+// tableRows();
 
 seattle.numberOfCustmer();
 seattle.hourlyDailySale();
