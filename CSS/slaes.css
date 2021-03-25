@@ -1,23 +1,87 @@
-body,html{
+body, html {
     margin: 0;
     width: 100%;
     height: 100%;
+    background-color: rgb(255, 255, 255);
 }
-.container{
-    background: linear-gradient(45deg,rgba(255, 192, 203, 0.685),black)no-repeat;
-    display: flex;
+
+header {
+    background-color: #444444;
+    height: 140px;
+}
+
+header div {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    color: rgba(255, 68, 0, 0.739);
+    font-size: 40px;
+}
+
+.nav {
+    margin-left: 30px;
+    padding-top: 20px;
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+a:link {
+    color: orangered;
+}
+
+.container {
+    width: 50%;
+    margin-top: 20px;
+    margin: auto;
     height: 100%;
-    justify-content: space-around;
-    font : italic normal 20px Arial;
+    font: italic normal 20px Arial;
     color: black;
 }
-td,th{
-    padding: 10px;
-    width: 50px;
+
+form {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
 }
-th{
+
+form fieldset {
+    color: orangered;
+    padding: 10px;
+    font-size: 20px;
+}
+
+input {
+    font-family: 'Pacifico', cursive;
+    border-radius: 10px;
+}
+
+td, th {
+    text-align: center;
+    padding: 5px;
+}
+
+th {
+    font-family: 'Pacifico', cursive;
     font-weight: bold;
 }
-/* table{
-    border: 1px solid black;
-} */
+
+footer {
+    background-color: #444444;
+    height: 200px;
+}
+
+#footer {
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+#footer div {
+    margin-top: 20px;
+}

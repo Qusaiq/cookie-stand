@@ -2,21 +2,52 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/slaes.css "> 
+    <link rel="stylesheet" href="CSS/slaes.css ">
     <title>Sales</title>
 </head>
 
 <body>
-    <div class="container">
-        <div id='salesReport' class="x">
+    <header>
+        <div>Pat’s Salmon Cookies</div>
 
+        <nav class="nav"><a href="sales.html">Home Page</a>
+        </nav>
+
+
+    </header>
+    <main>
+        <div class="container" id="container">
+            <table id='salesReport' class="x">
+
+            </table>
         </div>
+        <form id="form">
+            <fieldset>
+                <legend> Add To The store</legend>
+                <label for="location">Location</label><br>
+                <input type="text" id="location" placeholder="Location"><br>
+                <label for="Min">Minimum</label><br>
+                <input type="text" id="min" placeholder="Minimum"><br>
+                <label for="Max">Maximum</label><br>
+                <input type="text" id="max" placeholder="Maximum"><br>
+                <label for="AvgCookie">AvgCooki</label><br>
+                <input type="text" id="AvgCookie" placeholder="AvgCooki"><br><br>
+                <input type="submit" value="ADD STORE">
+            </fieldset>
+        </form>
+    </main>
     </div>
-
+    <footer id="footer">
+        <div>&copy; Qusai
+        </div>
+    </footer>
+    </div>
     <script src="./JS/App.js"></script>
 </body>
 
