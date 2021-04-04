@@ -23,7 +23,8 @@ header div nav {
     font-family: 'Pacifico', cursive;
 }
 .nav{
-    padding-right: 800px        ;
+    padding-right: 800px;
+    
 }
  section {
     font-size: 30px;
@@ -42,7 +43,7 @@ hr{
     text-align: center;
     padding: 20px;
     font-family: 'Pacifico', cursive;
-    color: black;
+   color: white;
     font-size: 30px;
     width: 220px;
     background-color: rgba(255, 68, 0, 0.356);
@@ -54,60 +55,3 @@ main nav p{
     font-family:fantasy;
     font-size: 25px;
 }
-
-/* nav {
-    color: #777;
-} 
-
-.navHead {}
-
-main {
-text-align: center;    
-}
-.img2{
-    
-    padding-top: 20px;
-
-}
-.img2 img:nth-last-of-type(2)
-{
-    padding: 0 20px 0 25px;
-    
-}
-main div:last-child img{
-    float: left;
-}
-.container{
-    width: 960px;
-    margin: auto;
-}
-main div:last-child {
-    margin-top: 20px;
-}
-p{
-    width: 450px;
-    height: 350px;
-    float: right;
-    overflow: auto;
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-    font-size: 15px;
-    font-stretch: normal;
-    line-height: 1.5em;
-}
-button{
-background-color: black;
-float: left ;
-text-align: center;
-color: white;
-outline: none;
-margin-top: 27px;
-margin-left: 30px;
-border: none;
-padding: 5px;
-}
-footer{
-    
-    background-color:#444444 ;
-    
-    }  */
